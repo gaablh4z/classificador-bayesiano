@@ -1,0 +1,241 @@
+id,distancia,clima,veiculo,transito,turno,dia_semana,tipo_carga,atraso
+1,Curta,Chuva Leve,Caminhão,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+2,Longa,Limpo,Van,Moderado,Manhã,Dia Útil,Padrão,Sim
+3,Longa,Tempestade/Alerta,Van,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+4,Longa,Limpo,Caminhão,Moderado,Noite,Dia Útil,Frágil/Volume Especial,Não
+5,Curta,Tempestade/Alerta,Caminhão,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+6,Média,Chuva Leve,Van,Moderado,Tarde,Dia Útil,Padrão,Não
+7,Longa,Limpo,Caminhão,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+8,Curta,Limpo,Caminhão,Leve,Manhã,Dia Útil,Padrão,Não
+9,Longa,Tempestade/Alerta,Van,Severo,Noite,Dia Útil,Padrão,Sim
+10,Média,Limpo,Van,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+11,Curta,Limpo,Moto,Severo,Tarde,Final de Semana/Feriado,Padrão,Não
+12,Longa,Limpo,Van,Leve,Manhã,Dia Útil,Padrão,Não
+13,Média,Limpo,Moto,Moderado,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+14,Curta,Limpo,Caminhão,Moderado,Manhã,Dia Útil,Padrão,Não
+15,Longa,Tempestade/Alerta,Moto,Severo,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+16,Média,Tempestade/Alerta,Van,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+17,Média,Chuva Leve,Moto,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+18,Média,Limpo,Caminhão,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+19,Média,Limpo,Caminhão,Severo,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+20,Média,Chuva Leve,Moto,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Não
+21,Média,Chuva Leve,Moto,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+22,Curta,Tempestade/Alerta,Van,Severo,Tarde,Final de Semana/Feriado,Padrão,Sim
+23,Média,Limpo,Van,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+24,Média,Limpo,Caminhão,Moderado,Noite,Final de Semana/Feriado,Padrão,Não
+25,Média,Tempestade/Alerta,Caminhão,Moderado,Noite,Dia Útil,Padrão,Sim
+26,Curta,Tempestade/Alerta,Caminhão,Leve,Tarde,Dia Útil,Padrão,Não
+27,Longa,Limpo,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+28,Curta,Chuva Leve,Van,Severo,Manhã,Final de Semana/Feriado,Padrão,Não
+29,Média,Limpo,Caminhão,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+30,Longa,Limpo,Caminhão,Moderado,Manhã,Dia Útil,Padrão,Não
+31,Média,Tempestade/Alerta,Van,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+32,Média,Chuva Leve,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+33,Média,Limpo,Caminhão,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+34,Média,Limpo,Moto,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+35,Curta,Tempestade/Alerta,Caminhão,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+36,Longa,Chuva Leve,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+37,Curta,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Padrão,Não
+38,Longa,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+39,Longa,Limpo,Van,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+40,Média,Limpo,Moto,Moderado,Tarde,Dia Útil,Padrão,Não
+41,Média,Chuva Leve,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+42,Curta,Limpo,Van,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+43,Longa,Chuva Leve,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+44,Média,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Padrão,Não
+45,Média,Tempestade/Alerta,Caminhão,Severo,Manhã,Dia Útil,Padrão,Sim
+46,Média,Chuva Leve,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+47,Curta,Limpo,Moto,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+48,Curta,Limpo,Van,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Não
+49,Longa,Limpo,Moto,Severo,Tarde,Dia Útil,Padrão,Sim
+50,Curta,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+51,Média,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+52,Média,Chuva Leve,Van,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+53,Curta,Chuva Leve,Van,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+54,Longa,Limpo,Caminhão,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Não
+55,Curta,Chuva Leve,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+56,Curta,Chuva Leve,Van,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Não
+57,Curta,Chuva Leve,Moto,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+58,Média,Tempestade/Alerta,Van,Severo,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+59,Média,Chuva Leve,Van,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+60,Curta,Chuva Leve,Caminhão,Moderado,Noite,Final de Semana/Feriado,Padrão,Não
+61,Curta,Tempestade/Alerta,Van,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+62,Curta,Chuva Leve,Moto,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+63,Média,Chuva Leve,Moto,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+64,Média,Limpo,Van,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+65,Curta,Chuva Leve,Van,Leve,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+66,Média,Limpo,Caminhão,Moderado,Noite,Dia Útil,Padrão,Não
+67,Curta,Tempestade/Alerta,Caminhão,Severo,Manhã,Dia Útil,Padrão,Sim
+68,Média,Limpo,Moto,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+69,Curta,Chuva Leve,Van,Severo,Tarde,Final de Semana/Feriado,Padrão,Sim
+70,Média,Limpo,Moto,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Não
+71,Curta,Limpo,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+72,Curta,Tempestade/Alerta,Caminhão,Severo,Noite,Dia Útil,Frágil/Volume Especial,Sim
+73,Média,Tempestade/Alerta,Moto,Leve,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+74,Curta,Chuva Leve,Moto,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+75,Curta,Chuva Leve,Moto,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+76,Longa,Chuva Leve,Caminhão,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+77,Média,Chuva Leve,Van,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+78,Longa,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+79,Média,Limpo,Caminhão,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+80,Média,Limpo,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+81,Média,Chuva Leve,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+82,Média,Chuva Leve,Moto,Severo,Tarde,Final de Semana/Feriado,Padrão,Sim
+83,Longa,Tempestade/Alerta,Moto,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+84,Média,Limpo,Van,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+85,Longa,Tempestade/Alerta,Van,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+86,Longa,Chuva Leve,Moto,Leve,Noite,Dia Útil,Padrão,Não
+87,Média,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Padrão,Não
+88,Curta,Limpo,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+89,Curta,Limpo,Van,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+90,Curta,Chuva Leve,Moto,Leve,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+91,Longa,Tempestade/Alerta,Van,Moderado,Manhã,Final de Semana/Feriado,Padrão,Sim
+92,Longa,Chuva Leve,Moto,Severo,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+93,Curta,Chuva Leve,Moto,Severo,Noite,Dia Útil,Padrão,Sim
+94,Média,Chuva Leve,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+95,Curta,Tempestade/Alerta,Caminhão,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+96,Curta,Chuva Leve,Caminhão,Moderado,Tarde,Dia Útil,Padrão,Não
+97,Longa,Chuva Leve,Caminhão,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+98,Longa,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+99,Curta,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+100,Longa,Tempestade/Alerta,Moto,Severo,Manhã,Final de Semana/Feriado,Padrão,Sim
+101,Longa,Tempestade/Alerta,Moto,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+102,Média,Limpo,Caminhão,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+103,Longa,Limpo,Caminhão,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+104,Média,Limpo,Van,Leve,Noite,Dia Útil,Padrão,Não
+105,Média,Tempestade/Alerta,Caminhão,Moderado,Noite,Dia Útil,Frágil/Volume Especial,Sim
+106,Curta,Tempestade/Alerta,Caminhão,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+107,Curta,Tempestade/Alerta,Moto,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+108,Média,Limpo,Moto,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+109,Curta,Tempestade/Alerta,Moto,Severo,Manhã,Final de Semana/Feriado,Padrão,Sim
+110,Curta,Limpo,Van,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+111,Longa,Limpo,Caminhão,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+112,Curta,Chuva Leve,Van,Leve,Noite,Dia Útil,Padrão,Não
+113,Curta,Chuva Leve,Caminhão,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+114,Média,Limpo,Caminhão,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+115,Longa,Limpo,Caminhão,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+116,Média,Chuva Leve,Moto,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+117,Longa,Tempestade/Alerta,Moto,Leve,Tarde,Dia Útil,Padrão,Sim
+118,Longa,Limpo,Moto,Leve,Tarde,Dia Útil,Padrão,Não
+119,Longa,Chuva Leve,Moto,Severo,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+120,Média,Limpo,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+121,Média,Chuva Leve,Caminhão,Severo,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+122,Curta,Tempestade/Alerta,Van,Leve,Manhã,Dia Útil,Padrão,Não
+123,Longa,Chuva Leve,Caminhão,Moderado,Noite,Final de Semana/Feriado,Padrão,Não
+124,Curta,Limpo,Moto,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+125,Média,Limpo,Moto,Moderado,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+126,Média,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Padrão,Não
+127,Longa,Limpo,Moto,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+128,Curta,Chuva Leve,Caminhão,Leve,Manhã,Dia Útil,Padrão,Não
+129,Curta,Limpo,Moto,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+130,Média,Chuva Leve,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+131,Longa,Limpo,Moto,Moderado,Noite,Dia Útil,Padrão,Sim
+132,Média,Limpo,Van,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+133,Média,Chuva Leve,Moto,Severo,Noite,Dia Útil,Frágil/Volume Especial,Sim
+134,Curta,Limpo,Van,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Não
+135,Longa,Chuva Leve,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+136,Longa,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+137,Curta,Tempestade/Alerta,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+138,Média,Chuva Leve,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+139,Curta,Chuva Leve,Caminhão,Leve,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+140,Curta,Limpo,Moto,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+141,Curta,Limpo,Van,Moderado,Manhã,Final de Semana/Feriado,Padrão,Sim
+142,Curta,Chuva Leve,Moto,Moderado,Noite,Dia Útil,Frágil/Volume Especial,Não
+143,Curta,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+144,Média,Limpo,Moto,Moderado,Noite,Dia Útil,Padrão,Não
+145,Média,Limpo,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+146,Média,Tempestade/Alerta,Moto,Severo,Noite,Dia Útil,Padrão,Sim
+147,Curta,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Padrão,Não
+148,Média,Chuva Leve,Van,Leve,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+149,Longa,Limpo,Caminhão,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+150,Média,Limpo,Van,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+151,Longa,Chuva Leve,Van,Moderado,Tarde,Dia Útil,Padrão,Não
+152,Curta,Limpo,Van,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+153,Longa,Tempestade/Alerta,Caminhão,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+154,Longa,Limpo,Caminhão,Leve,Tarde,Dia Útil,Padrão,Não
+155,Longa,Tempestade/Alerta,Caminhão,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+156,Média,Tempestade/Alerta,Van,Severo,Tarde,Dia Útil,Padrão,Sim
+157,Média,Limpo,Van,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+158,Curta,Tempestade/Alerta,Moto,Severo,Manhã,Dia Útil,Padrão,Sim
+159,Longa,Tempestade/Alerta,Moto,Severo,Tarde,Final de Semana/Feriado,Padrão,Sim
+160,Curta,Chuva Leve,Caminhão,Severo,Tarde,Final de Semana/Feriado,Padrão,Não
+161,Curta,Chuva Leve,Caminhão,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+162,Curta,Tempestade/Alerta,Caminhão,Leve,Manhã,Dia Útil,Padrão,Sim
+163,Média,Chuva Leve,Caminhão,Moderado,Tarde,Dia Útil,Padrão,Não
+164,Curta,Chuva Leve,Caminhão,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Não
+165,Curta,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+166,Média,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Não
+167,Curta,Tempestade/Alerta,Van,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+168,Curta,Chuva Leve,Van,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Não
+169,Curta,Limpo,Moto,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+170,Média,Tempestade/Alerta,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+171,Longa,Limpo,Van,Leve,Tarde,Dia Útil,Frágil/Volume Especial,Não
+172,Curta,Limpo,Van,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Não
+173,Longa,Tempestade/Alerta,Caminhão,Leve,Noite,Dia Útil,Padrão,Sim
+174,Longa,Tempestade/Alerta,Caminhão,Leve,Tarde,Final de Semana/Feriado,Padrão,Sim
+175,Curta,Limpo,Caminhão,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+176,Curta,Tempestade/Alerta,Van,Leve,Noite,Dia Útil,Frágil/Volume Especial,Não
+177,Média,Chuva Leve,Moto,Leve,Manhã,Dia Útil,Padrão,Não
+178,Média,Limpo,Van,Moderado,Manhã,Dia Útil,Padrão,Não
+179,Média,Limpo,Caminhão,Leve,Noite,Dia Útil,Padrão,Não
+180,Curta,Limpo,Caminhão,Leve,Tarde,Dia Útil,Padrão,Não
+181,Longa,Limpo,Moto,Severo,Tarde,Dia Útil,Padrão,Sim
+182,Média,Tempestade/Alerta,Caminhão,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Não
+183,Média,Chuva Leve,Moto,Severo,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+184,Curta,Chuva Leve,Van,Moderado,Manhã,Dia Útil,Padrão,Não
+185,Longa,Chuva Leve,Caminhão,Leve,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+186,Média,Tempestade/Alerta,Van,Leve,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+187,Curta,Chuva Leve,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Não
+188,Média,Chuva Leve,Moto,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+189,Longa,Tempestade/Alerta,Caminhão,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+190,Longa,Tempestade/Alerta,Moto,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+191,Curta,Limpo,Caminhão,Severo,Tarde,Final de Semana/Feriado,Padrão,Não
+192,Curta,Tempestade/Alerta,Caminhão,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+193,Curta,Limpo,Van,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+194,Curta,Tempestade/Alerta,Caminhão,Severo,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+195,Longa,Chuva Leve,Caminhão,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+196,Curta,Chuva Leve,Caminhão,Moderado,Noite,Final de Semana/Feriado,Padrão,Não
+197,Média,Limpo,Van,Leve,Noite,Dia Útil,Padrão,Não
+198,Curta,Chuva Leve,Moto,Severo,Manhã,Final de Semana/Feriado,Padrão,Não
+199,Média,Limpo,Caminhão,Moderado,Noite,Dia Útil,Frágil/Volume Especial,Não
+200,Longa,Chuva Leve,Van,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+201,Longa,Chuva Leve,Van,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+202,Curta,Tempestade/Alerta,Van,Moderado,Noite,Dia Útil,Padrão,Sim
+203,Média,Limpo,Van,Severo,Manhã,Dia Útil,Padrão,Sim
+204,Curta,Chuva Leve,Van,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+205,Longa,Limpo,Van,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+206,Curta,Tempestade/Alerta,Caminhão,Leve,Noite,Dia Útil,Frágil/Volume Especial,Sim
+207,Curta,Limpo,Van,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Não
+208,Curta,Limpo,Moto,Moderado,Tarde,Final de Semana/Feriado,Padrão,Não
+209,Média,Chuva Leve,Moto,Leve,Tarde,Dia Útil,Padrão,Não
+210,Longa,Chuva Leve,Caminhão,Leve,Noite,Dia Útil,Padrão,Não
+211,Longa,Limpo,Van,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+212,Curta,Limpo,Van,Severo,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Não
+213,Longa,Limpo,Caminhão,Leve,Tarde,Dia Útil,Padrão,Sim
+214,Curta,Chuva Leve,Moto,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+215,Curta,Chuva Leve,Van,Leve,Manhã,Dia Útil,Frágil/Volume Especial,Não
+216,Média,Limpo,Caminhão,Severo,Manhã,Dia Útil,Padrão,Não
+217,Curta,Limpo,Moto,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+218,Longa,Chuva Leve,Caminhão,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+219,Longa,Limpo,Caminhão,Leve,Tarde,Dia Útil,Padrão,Não
+220,Curta,Limpo,Caminhão,Moderado,Noite,Dia Útil,Frágil/Volume Especial,Sim
+221,Curta,Limpo,Caminhão,Moderado,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+222,Curta,Tempestade/Alerta,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+223,Curta,Chuva Leve,Moto,Severo,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+224,Média,Tempestade/Alerta,Caminhão,Leve,Manhã,Dia Útil,Padrão,Não
+225,Longa,Limpo,Van,Leve,Manhã,Final de Semana/Feriado,Padrão,Não
+226,Longa,Chuva Leve,Van,Leve,Noite,Final de Semana/Feriado,Frágil/Volume Especial,Não
+227,Média,Tempestade/Alerta,Caminhão,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+228,Longa,Tempestade/Alerta,Caminhão,Leve,Manhã,Dia Útil,Padrão,Não
+229,Média,Tempestade/Alerta,Van,Moderado,Tarde,Final de Semana/Feriado,Frágil/Volume Especial,Sim
+230,Média,Chuva Leve,Moto,Leve,Tarde,Final de Semana/Feriado,Padrão,Sim
+231,Média,Chuva Leve,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Frágil/Volume Especial,Não
+232,Média,Tempestade/Alerta,Van,Leve,Noite,Final de Semana/Feriado,Padrão,Não
+233,Curta,Chuva Leve,Van,Leve,Manhã,Dia Útil,Padrão,Não
+234,Curta,Limpo,Caminhão,Moderado,Manhã,Final de Semana/Feriado,Padrão,Não
+235,Média,Chuva Leve,Van,Moderado,Tarde,Dia Útil,Frágil/Volume Especial,Sim
+236,Curta,Chuva Leve,Van,Moderado,Tarde,Dia Útil,Padrão,Não
+237,Longa,Tempestade/Alerta,Van,Severo,Noite,Dia Útil,Padrão,Sim
+238,Média,Tempestade/Alerta,Caminhão,Moderado,Manhã,Dia Útil,Frágil/Volume Especial,Sim
+239,Longa,Limpo,Moto,Moderado,Noite,Final de Semana/Feriado,Padrão,Sim
+240,Curta,Chuva Leve,Van,Severo,Tarde,Dia Útil,Frágil/Volume Especial,Sim

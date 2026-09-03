@@ -1,0 +1,194 @@
+[
+  {
+    "caso": "Teste 1 - Alto Risco Extremo",
+    "perfil": {
+      "v_distancia": "Longa",
+      "v_clima": "Tempestade/Alerta",
+      "v_veiculo": "Moto",
+      "v_transito": "Severo",
+      "v_turno": "Noite",
+      "v_dia_semana": "Dia Útil",
+      "v_tipo_carga": "Frágil/Volume Especial"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Sim",
+        -6.6739,
+        98.9,
+        "RECOMENDAÇÃO: Acionar plano de contingência (troca de modal / priorização) - alto risco de SLA quebrado"
+      ],
+      [
+        "Não",
+        -11.1703,
+        1.1,
+        ""
+      ]
+    ]
+  },
+  {
+    "caso": "Teste 2 - Cenário Ideal (baixo risco)",
+    "perfil": {
+      "v_distancia": "Curta",
+      "v_clima": "Limpo",
+      "v_veiculo": "Caminhão",
+      "v_transito": "Leve",
+      "v_turno": "Manhã",
+      "v_dia_semana": "Dia Útil",
+      "v_tipo_carga": "Padrão"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Não",
+        -5.8385,
+        96.96,
+        "RECOMENDAÇÃO: Manter operação padrão - baixo risco de atraso"
+      ],
+      [
+        "Sim",
+        -9.2993,
+        3.04,
+        ""
+      ]
+    ]
+  },
+  {
+    "caso": "Teste 3 - Perfil Ambíguo",
+    "perfil": {
+      "v_distancia": "Média",
+      "v_clima": "Chuva Leve",
+      "v_veiculo": "Van",
+      "v_transito": "Moderado",
+      "v_turno": "Tarde",
+      "v_dia_semana": "Final de Semana/Feriado",
+      "v_tipo_carga": "Padrão"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Não",
+        -6.4213,
+        89.94,
+        "RECOMENDAÇÃO: Manter operação padrão - baixo risco de atraso"
+      ],
+      [
+        "Sim",
+        -8.6115,
+        10.06,
+        ""
+      ]
+    ]
+  },
+  {
+    "caso": "Teste 4 - Fator Crítico: Trânsito",
+    "perfil": {
+      "v_distancia": "Curta",
+      "v_clima": "Limpo",
+      "v_veiculo": "Moto",
+      "v_transito": "Severo",
+      "v_turno": "Manhã",
+      "v_dia_semana": "Dia Útil",
+      "v_tipo_carga": "Padrão"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Sim",
+        -8.325,
+        54.1,
+        "RECOMENDAÇÃO: Acionar plano de contingência (troca de modal / priorização) - alto risco de SLA quebrado"
+      ],
+      [
+        "Não",
+        -8.4894,
+        45.9,
+        ""
+      ]
+    ]
+  },
+  {
+    "caso": "Teste 5 - Fator Crítico: Clima",
+    "perfil": {
+      "v_distancia": "Longa",
+      "v_clima": "Tempestade/Alerta",
+      "v_veiculo": "Caminhão",
+      "v_transito": "Leve",
+      "v_turno": "Tarde",
+      "v_dia_semana": "Final de Semana/Feriado",
+      "v_tipo_carga": "Padrão"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Não",
+        -7.7427,
+        58.47,
+        "RECOMENDAÇÃO: Manter operação padrão - baixo risco de atraso"
+      ],
+      [
+        "Sim",
+        -8.0847,
+        41.53,
+        ""
+      ]
+    ]
+  },
+  {
+    "caso": "Teste 6 - Valor Não Visto (Drone)",
+    "perfil": {
+      "v_distancia": "Longa",
+      "v_clima": "Tempestade/Alerta",
+      "v_veiculo": "Drone",
+      "v_transito": "Severo",
+      "v_turno": "Noite",
+      "v_dia_semana": "Dia Útil",
+      "v_tipo_carga": "Padrão"
+    },
+    "colunas": [
+      "Classe",
+      "Log_Score",
+      "Probabilidade_Percentual",
+      "Recomendacao"
+    ],
+    "linhas": [
+      [
+        "Sim",
+        -10.2419,
+        98.44,
+        "RECOMENDAÇÃO: Acionar plano de contingência (troca de modal / priorização) - alto risco de SLA quebrado"
+      ],
+      [
+        "Não",
+        -14.3859,
+        1.56,
+        ""
+      ]
+    ]
+  }
+]
