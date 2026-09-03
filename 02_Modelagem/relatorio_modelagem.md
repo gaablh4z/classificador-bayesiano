@@ -1,6 +1,6 @@
 # Relatório de Modelagem — Classificador Bayesiano de Atrasos em Entregas
 
-**Nome do(s) aluno(s):** ⚠️ *preencher — o PDF original ainda está com o placeholder "[Preencha seu Nome]", isso reprova por si só se for entregue assim*
+**Nome do(s) aluno(s):** Gabriel Lemos Gomes e Lucas Peres de Lima
 **Disciplina/Curso:** Engenharia da Computação
 **Data de entrega:** 28/08/2026
 
