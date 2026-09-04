@@ -1,6 +1,22 @@
--- Massa de dados de treinamento: Classificador Bayesiano de Atrasos em Entregas (Logística)
--- 240 registros | Distribuição: 162 'Não' (67.5%) / 78 'Sim' (32.5%)
+-- ==============================================================================
+-- MASSA DE DADOS DE TREINAMENTO - CLASSIFICADOR BAYESIANO DE LOGÍSTICA
+-- Domínio: Transporte e Distribuição de Mercadorias
+-- Total: 240 registros históricos | 162 Pontuais ('Não') e 78 Atrasados ('Sim')
+-- ==============================================================================
 
+-- ==============================================================================
+-- BLOCO 1: CRIAÇÃO DA TABELA DE TREINAMENTO
+-- ==============================================================================
+-- Cria a tabela 'treinamento_logistica' se ela ainda não existir.
+-- Esta tabela armazena o histórico das 240 entregas com suas 7 características:
+-- 1. distancia: distância do percurso (Curta, Média, Longa)
+-- 2. clima: condição climática (Limpo, Chuva Leve, Tempestade/Alerta)
+-- 3. veiculo: modal utilizado (Moto, Van, Caminhão)
+-- 4. transito: condição da malha viária (Leve, Moderado, Severo)
+-- 5. turno: horário da entrega (Manhã, Tarde, Noite)
+-- 6. dia_semana: dia da operação (Dia Útil, Final de Semana/Feriado)
+-- 7. tipo_carga: criticidade da carga (Padrão, Frágil/Volume Especial)
+-- E a coluna alvo 'atraso': se a entrega atrasou ('Sim' ou 'Não').
 CREATE TABLE IF NOT EXISTS treinamento_logistica (
     id INTEGER PRIMARY KEY,
     distancia TEXT NOT NULL,
@@ -13,6 +29,11 @@ CREATE TABLE IF NOT EXISTS treinamento_logistica (
     atraso TEXT NOT NULL CHECK (atraso IN ('Sim','Não'))
 );
 
+-- ==============================================================================
+-- BLOCO 2: INSERÇÃO DOS REGISTROS HISTÓRICOS (MASSA DE TREINO)
+-- ==============================================================================
+-- Insere os 240 registros rotulados que servirão de base para o cálculo das
+-- probabilidades a priori e verossimilhanças do algoritmo Naive Bayes.
 INSERT INTO treinamento_logistica (id, distancia, clima, veiculo, transito, turno, dia_semana, tipo_carga, atraso) VALUES
 (1, 'Curta', 'Chuva Leve', 'Caminhão', 'Leve', 'Noite', 'Final de Semana/Feriado', 'Frágil/Volume Especial', 'Não'),
 (2, 'Longa', 'Limpo', 'Van', 'Moderado', 'Manhã', 'Dia Útil', 'Padrão', 'Sim'),

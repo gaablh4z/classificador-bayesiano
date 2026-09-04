@@ -36,4 +36,3 @@ A IA estruturou o SQL em blocos limpos (CTEs). Fizemos revisões importantes: ad
 
 **O que aproveitamos e ajustamos:**
 Executamos os 6 casos diretamente contra a base no banco de dados. Os resultados validaram a intuição: `Trânsito Severo` (+1.838) e `Tempestade` (+1.574) foram os fatores de maior impacto a favor do atraso. O teste do Drone comprovou na prática a eficácia da suavização de Laplace (o modelo não travou e classificou com base nas outras evidências), e o caso isolado de clima mostrou que o modelo é equilibrado e não toma decisões extremas com base em um único fator quando as outras variáveis são favoráveis.
-

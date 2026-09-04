@@ -1,11 +1,21 @@
--- =====================================================================
--- Classificador Naive Bayes (SQL) - Previsão de Atraso na Entrega
--- Domínio: Logística
--- Requer a tabela treinamento_logistica (ver 01_massa_dados.sql)
--- =====================================================================
+-- ==============================================================================
+-- MODELO PREDITIVO NAIVE BAYES IMPLEMENTADO EM SQL PURO
+-- Domínio: Previsão de Atraso em Entregas Logísticas
+-- Base de Dados: Tabela 'treinamento_logistica' (gerada em 01_massa_dados.sql)
+--
+-- Visão Geral do Algoritmo:
+-- 1. Calcula a chance básica de cada classe ocorrer (Probabilidade a Priori);
+-- 2. Calcula a chance de cada característica ocorrer para cada classe (Verossimilhança);
+-- 3. Utiliza correção de Laplace para evitar multiplicação por zero em casos inéditos;
+-- 4. Trabalha na escala logarítmica (LN) para evitar arredondamentos e perda de precisão;
+-- 5. Normaliza os resultados em porcentagem (0% a 100%) e emite recomendação de ação.
+-- ==============================================================================
 
--- ETAPA A: Definição do novo caso a ser classificado
--- (troque os valores aqui para testar outro perfil - ver 05_Testes_e_Resultados)
+-- ==============================================================================
+-- ETAPA A: DEFINIÇÃO DO NOVO CASO A SER CLASSIFICADO (ENTRADA)
+-- ==============================================================================
+-- Cria uma linha virtual com as características da entrega que desejamos analisar.
+-- Os parâmetros com dois-pontos (:v_...) são preenchidos dinamicamente na execução.
 WITH novo_caso AS (
     SELECT
         :v_distancia   AS v_distancia,
@@ -17,7 +27,12 @@ WITH novo_caso AS (
         :v_tipo_carga  AS v_tipo_carga
 ),
 
--- ETAPA B: contagens base e tamanho do vocabulário de cada feature (para Laplace)
+-- ==============================================================================
+-- ETAPA B: CONTAGEM DE TOTAIS E TAMANHO DO VOCABULÁRIO (|V|)
+-- ==============================================================================
+-- Conta o total de entregas no histórico e quantos valores distintos existem
+-- para cada atributo (ex: 3 tipos de clima, 3 tipos de veículo, etc.).
+-- Esses tamanhos de vocabulário (|V|) são exigidos pela fórmula de Laplace no denominador.
 estatisticas_base AS (
     SELECT
         COUNT(*) AS total_registros,
@@ -31,7 +46,13 @@ estatisticas_base AS (
     FROM treinamento_logistica
 ),
 
--- ETAPA C: probabilidade a priori P(classe), em log
+-- ==============================================================================
+-- ETAPA C: CÁLCULO DA PROBABILIDADE A PRIORI: P(Classe)
+-- ==============================================================================
+-- Calcula a probabilidade natural de uma entrega atrasar ou não atrasar:
+-- P(Sim) = total de 'Sim' / 240
+-- P(Não) = total de 'Não' / 240
+-- Aplica LN() para converter a probabilidade para escala logarítmica.
 priori AS (
     SELECT
         atraso,
@@ -42,8 +63,15 @@ priori AS (
     GROUP BY atraso
 ),
 
--- ETAPA D: verossimilhanças P(feature=valor | classe) com suavização de Laplace, em log
--- Fórmula de Laplace: (Contagem(feature=valor, classe) + 1) / (Total(classe) + |Vocabulário(feature)|)
+-- ==============================================================================
+-- ETAPA D: CÁLCULO DAS VEROSSIMILHANÇAS COM SUAVIZAÇÃO DE LAPLACE: P(Atributo | Classe)
+-- ==============================================================================
+-- Para cada atributo da entrega a ser testada, calcula a chance daquele valor ocorrer na classe.
+-- Fórmula de Laplace aplicada em cada termo:
+--   P = (Quantidade de vezes que o valor ocorreu na classe + 1) / (Total da classe + |V|)
+-- O "+ 1" e o "+ |V|" impedem que qualquer probabilidade vire zero caso um valor
+-- nunca tenha sido observado antes no histórico (exemplo: veículo "Drone").
+-- O resultado de cada atributo é transformado em logaritmo natural LN().
 verossimilhanca AS (
     SELECT
         p.atraso,
@@ -64,7 +92,12 @@ verossimilhanca AS (
              e.V_transito, e.V_turno, e.V_dia_semana, e.V_carga
 ),
 
--- ETAPA E: soma dos logs (evita underflow numérico) e reversão para escala normal (exp)
+-- ==============================================================================
+-- ETAPA E: COMBINAÇÃO DAS EVIDÊNCIAS (SOMA DOS LOGS) E CONVERSÃO EXPONENCIAL
+-- ==============================================================================
+-- No Naive Bayes, as probabilidades são multiplicadas: P(Classe) * P(x1|Classe) * ...
+-- Como estamos na escala de logaritmos, a multiplicação vira uma simples soma (evitando underflow).
+-- Em seguida, aplicamos EXP() para reverter a soma logarítmica de volta para escala numérica real.
 score_bruto AS (
     SELECT
         atraso,
@@ -73,7 +106,12 @@ score_bruto AS (
     FROM verossimilhanca
 )
 
--- ETAPA F: normalização (0% a 100%) + recomendação de decisão
+-- ==============================================================================
+-- ETAPA F: NORMALIZAÇÃO PERCENTUAL (0% a 100%) E TOMADA DE DECISÃO AUTOMÁTICA
+-- ==============================================================================
+-- Divide o score de cada classe pela soma de todos os scores (normalização Softmax),
+-- obtendo a probabilidade percentual exata de cada desfecho.
+-- Emite uma recomendação operacional para o time de logística com base na classe vencedora.
 SELECT
     atraso AS Classe,
     ROUND(log_score_final, 4) AS Log_Score,
