@@ -68,9 +68,6 @@ Foram selecionadas 7 variáveis agronômicas fundamentais, discretizadas em 3 ca
 │   ├── log_odds.json                   # Cálculo de log-odds para análise de impacto
 │   ├── resultados_brutos.json          # Probabilidades calculadas por cenário
 │   └── resultados_e_analise.md         # Relatório analítico dos resultados e reflexão crítica
-└── Atividade/
-    ├── Atividade 1.pdf                 # Roteiro da atividade prática
-    └── CONTEXTO_ANTIGRAVITY.md         # Especificações contextuais do projeto
 ```
 
 ---
