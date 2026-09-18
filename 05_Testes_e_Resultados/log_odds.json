@@ -1,0 +1,170 @@
+[
+  {
+    "feature": "seca",
+    "categoria": "severa",
+    "p_sim": 0.5092,
+    "p_nao": 0.1262,
+    "log_odds": 1.3948,
+    "poder_discriminativo_abs": 1.3948
+  },
+  {
+    "feature": "irrigacao",
+    "categoria": "irrigado",
+    "p_sim": 0.0436,
+    "p_nao": 0.137,
+    "log_odds": -1.1456,
+    "poder_discriminativo_abs": 1.1456
+  },
+  {
+    "feature": "seca",
+    "categoria": "nenhuma",
+    "p_sim": 0.2074,
+    "p_nao": 0.5943,
+    "log_odds": -1.0529,
+    "poder_discriminativo_abs": 1.0529
+  },
+  {
+    "feature": "tipo_solo",
+    "categoria": "arenoso",
+    "p_sim": 0.4529,
+    "p_nao": 0.1995,
+    "log_odds": 0.8201,
+    "poder_discriminativo_abs": 0.8201
+  },
+  {
+    "feature": "chuva",
+    "categoria": "pouca",
+    "p_sim": 0.5436,
+    "p_nao": 0.2436,
+    "log_odds": 0.8027,
+    "poder_discriminativo_abs": 0.8027
+  },
+  {
+    "feature": "chuva",
+    "categoria": "normal",
+    "p_sim": 0.2849,
+    "p_nao": 0.6122,
+    "log_odds": -0.7648,
+    "poder_discriminativo_abs": 0.7648
+  },
+  {
+    "feature": "pragas",
+    "categoria": "alta",
+    "p_sim": 0.3393,
+    "p_nao": 0.1677,
+    "log_odds": 0.7046,
+    "poder_discriminativo_abs": 0.7046
+  },
+  {
+    "feature": "mes_plantio",
+    "categoria": "dezembro",
+    "p_sim": 0.2493,
+    "p_nao": 0.1255,
+    "log_odds": 0.6863,
+    "poder_discriminativo_abs": 0.6863
+  },
+  {
+    "feature": "tipo_solo",
+    "categoria": "argiloso",
+    "p_sim": 0.2864,
+    "p_nao": 0.5506,
+    "log_odds": -0.6535,
+    "poder_discriminativo_abs": 0.6535
+  },
+  {
+    "feature": "irrigacao",
+    "categoria": "convencional",
+    "p_sim": 0.294,
+    "p_nao": 0.1535,
+    "log_odds": 0.6503,
+    "poder_discriminativo_abs": 0.6503
+  },
+  {
+    "feature": "pragas",
+    "categoria": "baixa",
+    "p_sim": 0.2142,
+    "p_nao": 0.3824,
+    "log_odds": -0.5793,
+    "poder_discriminativo_abs": 0.5793
+  },
+  {
+    "feature": "regiao",
+    "categoria": "baixada",
+    "p_sim": 0.2762,
+    "p_nao": 0.1803,
+    "log_odds": 0.4265,
+    "poder_discriminativo_abs": 0.4265
+  },
+  {
+    "feature": "mes_plantio",
+    "categoria": "outubro",
+    "p_sim": 0.3622,
+    "p_nao": 0.5335,
+    "log_odds": -0.3872,
+    "poder_discriminativo_abs": 0.3872
+  },
+  {
+    "feature": "regiao",
+    "categoria": "planalto",
+    "p_sim": 0.3572,
+    "p_nao": 0.4727,
+    "log_odds": -0.2802,
+    "poder_discriminativo_abs": 0.2802
+  },
+  {
+    "feature": "chuva",
+    "categoria": "excessiva",
+    "p_sim": 0.1715,
+    "p_nao": 0.1442,
+    "log_odds": 0.1732,
+    "poder_discriminativo_abs": 0.1732
+  },
+  {
+    "feature": "mes_plantio",
+    "categoria": "novembro",
+    "p_sim": 0.3885,
+    "p_nao": 0.341,
+    "log_odds": 0.1304,
+    "poder_discriminativo_abs": 0.1304
+  },
+  {
+    "feature": "irrigacao",
+    "categoria": "plantio_direto",
+    "p_sim": 0.6624,
+    "p_nao": 0.7095,
+    "log_odds": -0.0688,
+    "poder_discriminativo_abs": 0.0688
+  },
+  {
+    "feature": "regiao",
+    "categoria": "transicao",
+    "p_sim": 0.3666,
+    "p_nao": 0.347,
+    "log_odds": 0.055,
+    "poder_discriminativo_abs": 0.055
+  },
+  {
+    "feature": "tipo_solo",
+    "categoria": "medio",
+    "p_sim": 0.2606,
+    "p_nao": 0.2499,
+    "log_odds": 0.0419,
+    "poder_discriminativo_abs": 0.0419
+  },
+  {
+    "feature": "seca",
+    "categoria": "moderada",
+    "p_sim": 0.2834,
+    "p_nao": 0.2795,
+    "log_odds": 0.014,
+    "poder_discriminativo_abs": 0.014
+  },
+  {
+    "feature": "pragas",
+    "categoria": "media",
+    "p_sim": 0.4465,
+    "p_nao": 0.4499,
+    "log_odds": -0.0076,
+    "poder_discriminativo_abs": 0.0076
+  }
+]

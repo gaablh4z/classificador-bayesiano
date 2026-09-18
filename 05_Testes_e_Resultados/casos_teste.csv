@@ -1,0 +1,6 @@
+cenario_id,nome,tipo_solo,seca,chuva,mes_plantio,irrigacao,pragas,regiao,esperado
+1,Baixo Risco (Planalto irrigado em outubro),argiloso,nenhuma,normal,outubro,irrigado,baixa,planalto,Não (Risco < 5%)
+2,"Alto Risco Extremo (Solo arenoso, seca severa, plantio em dezembro)",arenoso,severa,pouca,dezembro,convencional,alta,baixada,Sim (Risco > 90%)
+3,Dilema da Irrigação (Solo arenoso compensado por pivô),arenoso,nenhuma,normal,novembro,irrigado,media,transicao,Não (Tecnologia compensa solo)
+4,Resiliência da Argila (Solo argiloso sob seca severa),argiloso,severa,pouca,outubro,plantio_direto,media,planalto,Não (Risco moderado ~30-40% graças à microporosidade)
+5,Teste de Laplace (Solo inédito fora do treinamento),solo_desconhecido,moderada,normal,novembro,plantio_direto,baixa,transicao,Não quebra por divisão por zero (Laplace ativo)

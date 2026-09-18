@@ -1,0 +1,152 @@
+[
+  {
+    "cenario_id": 1,
+    "nome": "Baixo Risco (Planalto irrigado em outubro)",
+    "perfil": {
+      "v_tipo_solo": "argiloso",
+      "v_seca": "nenhuma",
+      "v_chuva": "normal",
+      "v_mes_plantio": "outubro",
+      "v_irrigacao": "irrigado",
+      "v_pragas": "baixa",
+      "v_regiao": "planalto"
+    },
+    "esperado": "Não (Risco < 5%)",
+    "classe_predita": "Não",
+    "prob_vencedora": 99.82,
+    "detalhes": [
+      {
+        "classe": "Não",
+        "log_score": -6.1484,
+        "probabilidade": 99.82,
+        "recomendacao": "RECOMENDAÇÃO: Baixo risco de quebra. Liberar crédito de custeio / safra regular esperada."
+      },
+      {
+        "classe": "Sim",
+        "log_score": -12.4463,
+        "probabilidade": 0.18,
+        "recomendacao": ""
+      }
+    ]
+  },
+  {
+    "cenario_id": 2,
+    "nome": "Alto Risco Extremo (Solo arenoso, seca severa, plantio em dezembro)",
+    "perfil": {
+      "v_tipo_solo": "arenoso",
+      "v_seca": "severa",
+      "v_chuva": "pouca",
+      "v_mes_plantio": "dezembro",
+      "v_irrigacao": "convencional",
+      "v_pragas": "alta",
+      "v_regiao": "baixada"
+    },
+    "esperado": "Sim (Risco > 90%)",
+    "classe_predita": "Sim",
+    "prob_vencedora": 98.29,
+    "detalhes": [
+      {
+        "classe": "Sim",
+        "log_score": -8.705,
+        "probabilidade": 98.29,
+        "recomendacao": "RECOMENDAÇÃO: Alto risco de quebra de safra. Exigir garantia real / acionar apólice de seguro agrícola."
+      },
+      {
+        "classe": "Não",
+        "log_score": -12.7559,
+        "probabilidade": 1.71,
+        "recomendacao": ""
+      }
+    ]
+  },
+  {
+    "cenario_id": 3,
+    "nome": "Dilema da Irrigação (Solo arenoso compensado por pivô)",
+    "perfil": {
+      "v_tipo_solo": "arenoso",
+      "v_seca": "nenhuma",
+      "v_chuva": "normal",
+      "v_mes_plantio": "novembro",
+      "v_irrigacao": "irrigado",
+      "v_pragas": "media",
+      "v_regiao": "transicao"
+    },
+    "esperado": "Não (Tecnologia compensa solo)",
+    "classe_predita": "Não",
+    "prob_vencedora": 96.77,
+    "detalhes": [
+      {
+        "classe": "Não",
+        "log_score": -7.7576,
+        "probabilidade": 96.77,
+        "recomendacao": "RECOMENDAÇÃO: Baixo risco de quebra. Liberar crédito de custeio / safra regular esperada."
+      },
+      {
+        "classe": "Sim",
+        "log_score": -11.1575,
+        "probabilidade": 3.23,
+        "recomendacao": ""
+      }
+    ]
+  },
+  {
+    "cenario_id": 4,
+    "nome": "Resiliência da Argila (Solo argiloso sob seca severa)",
+    "perfil": {
+      "v_tipo_solo": "argiloso",
+      "v_seca": "severa",
+      "v_chuva": "pouca",
+      "v_mes_plantio": "outubro",
+      "v_irrigacao": "plantio_direto",
+      "v_pragas": "media",
+      "v_regiao": "planalto"
+    },
+    "esperado": "Não (Risco moderado ~30-40% graças à microporosidade)",
+    "classe_predita": "Não",
+    "prob_vencedora": 65.35,
+    "detalhes": [
+      {
+        "classe": "Não",
+        "log_score": -6.8117,
+        "probabilidade": 65.35,
+        "recomendacao": "RECOMENDAÇÃO: Baixo risco de quebra. Liberar crédito de custeio / safra regular esperada."
+      },
+      {
+        "classe": "Sim",
+        "log_score": -7.4461,
+        "probabilidade": 34.65,
+        "recomendacao": ""
+      }
+    ]
+  },
+  {
+    "cenario_id": 5,
+    "nome": "Teste de Laplace (Solo inédito fora do treinamento)",
+    "perfil": {
+      "v_tipo_solo": "solo_desconhecido",
+      "v_seca": "moderada",
+      "v_chuva": "normal",
+      "v_mes_plantio": "novembro",
+      "v_irrigacao": "plantio_direto",
+      "v_pragas": "baixa",
+      "v_regiao": "transicao"
+    },
+    "esperado": "Não quebra por divisão por zero (Laplace ativo)",
+    "classe_predita": "Não",
+    "prob_vencedora": 77.09,
+    "detalhes": [
+      {
+        "classe": "Não",
+        "log_score": -17.4105,
+        "probabilidade": 77.09,
+        "recomendacao": "RECOMENDAÇÃO: Baixo risco de quebra. Liberar crédito de custeio / safra regular esperada."
+      },
+      {
+        "classe": "Sim",
+        "log_score": -18.6242,
+        "probabilidade": 22.91,
+        "recomendacao": ""
+      }
+    ]
+  }
+]
