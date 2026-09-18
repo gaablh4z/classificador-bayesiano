@@ -1,5 +1,11 @@
 # Resultados dos Testes e Reflexão Crítica
 
+> **Disciplina:** Mineração de Dados  
+> **Participantes:** Lucas Peres de Lima, Gabriel Lemos Gomes  
+> **Entregável:** Etapa 4 do Roteiro da Atividade Prática 1  
+
+---
+
 ## 1. Tabela Síntese dos Casos de Teste (Base com 200.000 Registros)
 
 | # | Cenário Avaliado | P(Perda) | P(Regular) | Diagnóstico | Meta Esperada | Status |

@@ -104,6 +104,7 @@ Os resultados consolidados e os relatórios serão atualizados na pasta `05_Test
 
 ---
 
-## 👨‍💻 Autor
+## 👥 Participantes
 
-- **Gabriel Lemos** ([@gaablh4z](https://github.com/gaablh4z))
+- **Lucas Peres de Lima**
+- **Gabriel Lemos Gomes** ([@gaablh4z](https://github.com/gaablh4z))

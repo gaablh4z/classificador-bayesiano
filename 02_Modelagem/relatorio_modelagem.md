@@ -2,6 +2,7 @@
 
 **Disciplina:** Mineração de Dados  
 **Domínio Escolhido:** Agronegócio (Previsão de Quebra de Safra e Seguro Agrícola)  
+**Participantes:** Lucas Peres de Lima, Gabriel Lemos Gomes  
 **Entregável:** Etapa 1 do Roteiro da Atividade Prática 1  
 
 ---

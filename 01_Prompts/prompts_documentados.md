@@ -2,7 +2,8 @@
 
 > **Atividade Prática 1 — Algoritmo Classificador Bayesiano**  
 > **Disciplina:** Mineração de Dados  
-> **Domínio Escolhido:** Agronegócio (Previsão de Risco de Perda de Safra)
+> **Domínio Escolhido:** Agronegócio (Previsão de Risco de Perda de Safra)  
+> **Participantes:** Lucas Peres de Lima, Gabriel Lemos Gomes
 
 Este documento registra o histórico integral de diálogo com a IA generativa, detalhando os prompts utilizados para conceber a modelagem, a geração de dados, o algoritmo em SQL e a interpretação crítica dos resultados.
 
